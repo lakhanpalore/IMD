@@ -51,10 +51,12 @@ A production-ready inventory management system built using the **MERN stack** wi
 cd server
 npm install
 ```
+
+```.env
 > NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 > PORT=8000
 > DATABASE_URL=postgresql://user:password@localhost:5432/yourdb
-
+```
 ```
 npx prisma migrate dev
 npx prisma generate
